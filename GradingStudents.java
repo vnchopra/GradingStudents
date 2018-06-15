@@ -1,13 +1,15 @@
 
 import java.util.*;
 
-public class GradingStudents {
+public class GradingStudents 
+{
 
     /*
      * Complete the gradingStudents function below.
      * https://www.hackerrank.com/challenges/grading/problem
      */
-    static void gradingStudents(int[] grades) {
+    static void gradingStudents(int[] grades) 
+    {
         /*
          * Write your code here.
          */
@@ -16,13 +18,15 @@ public class GradingStudents {
 
     }
 
-    public static void main(String[] args) {
+    public static void main(String[] args) 
+    {
     	Scanner scan = new Scanner(System.in);
         int n = Integer.parseInt(scan.nextLine().trim());
 
         int[] arr = new int[n];
 
-        for(int ar_i = 0; ar_i < n; ar_i++){
+        for(int ar_i = 0; ar_i < n; ar_i++)
+        {
         	arr[ar_i] = scan.nextInt();
         }
         gradingStudents(arr);
